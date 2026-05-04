@@ -1,0 +1,32 @@
+node_modules/
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# logs
+logs/
+*.log
+
+# runtime / temp
+tmp/
+temp/
+.cache/
+
+# OCR artifacts (best-effort; temp dir is OS-level but keep any accidental outputs out)
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# editor
+.DS_Store
+.idea/
+.vscode/
+
+# coverage / reports
+coverage/
+
+# tesseract language packs (do not commit)
+*.traineddata
