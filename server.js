@@ -49,6 +49,7 @@ function isAllowedCorsOrigin(origin) {
 
   const allow = new Set([
     ...envOrigins,
+    "https://kyc-frontend-pied.vercel.app",
     "http://localhost:5173",
     "http://localhost:5174",
   ]);
